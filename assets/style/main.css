@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+
+  background: url("./../images/pattern-curve.svg") no-repeat;
+  background-position: 0% 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main section {
+  width: 90%;
+  height: 95vh;
+
+  background: url("./../images/pattern-bg.svg") no-repeat;
+  background-size: 51.65%;
+  background-position: 97% 35%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial {
+  width: 87%;
+  height: 90%;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 100%;
+  border-radius: 0.35em;
+}
+
+.avatar {
+  position: relative;
+  right: 1.36em;
+}
+
+.opinion {
+  position: relative;
+  left: 1.36em;
+  z-index: 99;
+
+  width: 54%;
+  height: 50%;
+  margin: auto 0;
+
+  padding-top: 2em;
+
+  background: url("./../images/pattern-quotes.svg") no-repeat;
+  background-size: 18.3%;
+  background-position: 18.7% 0%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  font-weight: 300;
+  font-size: 2em;
+}
+#JFEDT .personalInfo {
+  width: 65%;
+  justify-content: space-evenly;
+}
+.personalInfo {
+  width: 50%;
+
+  padding-top: 2em;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  font-size: 0.6em;
+}
+.personalInfo p:first-child {
+  font-weight: 700;
+}
+.personalInfo p:last-child {
+  font-weight: 500;
+  opacity: 0.3;
+}
+#control {
+  position: absolute;
+  bottom: 10%;
+  right: 36.6%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  box-shadow: 0.5em 0.2em 8em 0.2em hsl(240, 38%, 20%);
+  border-radius: 50%;
+}
+
+#control .btn {
+  border: none;
+}
+#control .btn:hover {
+  background-color: grey;
+}
+
+#control #next {
+  background: url("./../images/icon-next.svg") no-repeat;
+  background-color: #fff;
+  background-position: 50% 50%;
+  background-size: 25%;
+
+  padding: 2em 2em;
+  border-radius: 0 50% 50% 0;
+}
+#control #next:hover {
+  background-color: rgb(241, 239, 239);
+}
+#control #next:active {
+  background-color: rgb(233, 233, 233);
+}
+
+#control #preview {
+  background: url("./../images/icon-prev.svg") no-repeat;
+  background-color: #fff;
+  background-position: 50% 50%;
+  background-size: 25%;
+
+  padding: 2em 2em;
+  border-radius: 50% 0 0 50%;
+}
+#control #preview:hover {
+  background-color: rgb(241, 239, 239);
+}
+#control #preview:active {
+  background-color: rgb(233, 233, 233);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+#UET /*JFEDT*/ {
+  display: none;
+}
+@media (min-width: 721px) {
+  .avatar {
+    order: 1;
+  }
+}

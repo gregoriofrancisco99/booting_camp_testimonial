@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/style/main.css">
+  <link rel="stylesheet" href="./assets/style/adaption.css">
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <main>
+    <section>
+      <article class="testimonial" id="UET" itemscope itemtype="https://schema.org/Person">
+    
+        <div class="avatar">
+          <figure>
+            <img src="./assets/images/image-tanya.jpg" itemprop="image" alt="Tanya Sinclair">
+          </figure>
+    
+        </div>
+    
+        <div class="opinion">
+    
+          <p>“ I’ve been interested in coding for a while but never taken the jump, until now.
+          I couldn’t recommend this course enough. I’m now in the job of my dreams and so
+          excited about the future. ”</p>
+          
+          <div class="personalInfo">
+    
+            <p itemprop="name">Tanya Sinclair</p>
+            <p itemprop="jobTitle">UX Engineer</p>
+    
+          </div>
+    
+        </div>
+    
+      </article>
+
+      <article class="testimonial hide" id="JFEDT" itemscope itemtype="https://schema.org/Person">
+    
+        <div class="avatar">
+    
+          <figure>
+            <img src="./assets/images/image-john.jpg" itemprop="image" alt="John Tarkpor">
+          </figure>
+    
+        </div>
+    
+        <div class="opinion">
+    
+          <p>“ If you want to lay the best foundation possible I’d recommend taking this course.
+          The depth the instructors go into is incredible. I now feel so confident about
+          starting up as a professional developer. ”</p>
+          
+          <div class="personalInfo">
+            <p itemprop="name">John Tarkpor</p>
+            <p itemprop="jobTitle">Junior Front-end Developer</p>
+          </div>
+    
+        </div>
+      </article>
+    
+    </section>
+
+    <div id="control">
+      <button href="#" class="btn " id="preview" onclick="plusDivs(-1)"></button>
+      <button href="#" class="btn" id="next" onclick="plusDivs(1)"></button>
+    </div>
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+
+  <!--And more JScript-->
+  <script src="./assets/js/control.js"></script>
+
+</body>
+</html>
